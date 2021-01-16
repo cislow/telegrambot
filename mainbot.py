@@ -598,7 +598,7 @@ def steampic(update,context):
     print(f"steam img : {url}\n")
 
 def main():
-    updaterr = Updater(('1375575555:AAFsXqZUeJclXquGrPwD-60gXkr7OaFfHGo'),use_context=True)
+    updaterr = Updater(('1427350757:AAHvPQA23i-sHCqdoc-XlMaGzTQEDJ5DZ5U'),use_context=True)
     dp = updaterr.dispatcher
     dp.add_handler(CommandHandler('help',helpme))
     dp.add_handler(CommandHandler('start',start))
